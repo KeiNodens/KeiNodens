@@ -1,25 +1,35 @@
-# KeiNodens
+![KeiNodens](assets/header.svg)
 
-記憶を持つAIコンパニオンや、AIから身近なソフトウェアを扱うための連携ツールを個人で開発しています。
+自分が使いたい道具を、AIと一緒に作っています。
 
-関心があるのは、会話の文脈を引き継ぐこと、作業を任せて結果を受け取ること、自分が日常で使える道具にすることです。
+最近は、会話を覚えて作業も手伝ってくれる相棒と、Minecraftの環境づくりを支援するツールに取り組んでいます。
 
-## 作っているもの
+## いま作っているもの
 
 ### [companion](https://github.com/KeiNodens/AIcompanion)
 
-人格と長期記憶を持つ、日本語AIコンパニオン。Discordやブラウザでの会話、リマインダー、外部エージェントへの作業依頼をつなぎます。
+人格と長期記憶を持つ、日本語AIコンパニオン。開発者本人のローカル環境で運用しています。
 
-記憶の正本と検索処理を分け、Hermes・Codexとの連携、承認、成果報告の仕組みを開発しています。
+- Discordやブラウザでの会話、タスク、リマインダー
+- 会話の文脈を引き継ぐ、ローカルの記憶
+- Hermes・Codexへの作業依頼、承認、成果の受け取り
 
-**Python · SQLite · MCP · エージェント連携**
+会話中にHermesのツールを使えるよう、ツールの実行結果を受け取って同じ会話を再開する仕組みも作っています。
 
-### Prism LauncherのMCP連携 — 企画・要件整理中
+**Python · SQLite · MCP**
 
-MinecraftのMod導入、日本語化、不具合への対処を、日本語の会話から進めるツールを構想しています。Prism LauncherとAIの役割を分け、変更前の確認と復旧まで扱うことを目指しています。
+[概要・導入](https://github.com/KeiNodens/AIcompanion#readme) · [コード](https://github.com/KeiNodens/AIcompanion/tree/main/companion) · [テスト結果](https://github.com/KeiNodens/AIcompanion/actions)
 
-## 開発の進め方
+---
 
-自分で使いながら課題を見つけ、設計とコードを見直しています。AIの支援を使い、実装だけでなく、ツール同士の接続、記憶の扱い、権限とテストにも取り組んでいます。
+### 次に作りたいもの：Prism LauncherのAI連携
 
-質問や提案は、各プロジェクトのIssuesへお願いします。
+MinecraftのMod導入、日本語化、不具合への対処を、日本語の会話から進めるツールを構想しています。Prism Launcherを通じた導入と、変更前の確認・失敗時の復旧まで扱いたいと考えています。
+
+*構想・要件整理中。*
+
+---
+
+関心：AIの長期記憶、エージェント連携、Minecraft。
+
+質問や提案は、[companionのIssues](https://github.com/KeiNodens/AIcompanion/issues)へどうぞ。
