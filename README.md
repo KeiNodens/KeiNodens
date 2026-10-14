@@ -6,7 +6,7 @@
 
 ## 作っているもの
 
-### [companion](https://github.com/KeiNodens/AIcompanoion)
+### [companion](https://github.com/KeiNodens/AIcompanion)
 
 人格と長期記憶を持つ、日本語AIコンパニオン。Discordやブラウザでの会話、リマインダー、外部エージェントへの作業依頼をつなぎます。
 
